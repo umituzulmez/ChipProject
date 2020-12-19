@@ -30,7 +30,7 @@ It gives me the advantage of manipulating my data in one place against all my te
 And under runners package I have created my runner class which helps me run my all test cases from one place. 
 Also I have created failedRunner class which configures my failed test in one places and helps me to run only these failed ones.
 
-These are pretty much about the project and I am happy to discuss in more detail \
+These are pretty much about the project and I am happy to discuss in more detail
 
 Thanks
 
