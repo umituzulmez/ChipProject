@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.Chip.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.064 s <<< FAILURE! - in com.Chip.runners.FailedTestRunner
+User should be able to add some words as profanity list and replace it by 'removed'(PurgoMalum Tests)  Time elapsed: 0.223 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<he is [removed] [][removed]> but was:<he is [removed] [ ][removed]>
+
+User should not be able to add more than 10 words as profanity list(PurgoMalum Tests)  Time elapsed: 0.213 s  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<200>
+
+User should not be able to add a word more than 200 characters as profanity list(PurgoMalum Tests)  Time elapsed: 0.209 s  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<200>
+
+User should not be able to add a replacement word more that 20 characters(PurgoMalum Tests)  Time elapsed: 0.202 s  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<200>
+

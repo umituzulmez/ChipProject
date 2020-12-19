@@ -1,0 +1,11 @@
+com/Chip/utilities/ApiUtils.class
+com/Chip/utilities/TestUser.class
+com/Chip/stepDefinitions/AnotherManagerStepDefs.class
+com/Chip/runners/CukesRunner.class
+com/Chip/utilities/DBUtils.class
+com/Chip/stepDefinitions/PurgoMalumStepDefs.class
+com/Chip/microservices/Base.class
+com/Chip/utilities/TestDataReader.class
+com/Chip/microservices/PurgoMalumManager.class
+com/Chip/stepDefinitions/Hooks.class
+com/Chip/microservices/AnotherManager.class

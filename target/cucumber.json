@@ -1,0 +1,1897 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-19T15:24:20.343Z",
+        "line": 6,
+        "name": "User should be able send a valid text and validate it",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-send-a-valid-text-and-validate-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1282440946,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sends a text to PurgoMalum",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "Hello World!"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1899880,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 248611002,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should get the correct text in response",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_the_correct_text_in_response()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:21.911Z",
+        "line": 14,
+        "name": "User should be able to send a text in content type \"json\"",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-send-a-text-in-content-type-\"json\"",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 227057640,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User sends a text to PurgoMalum in following type",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "Just Testing"
+                ]
+              },
+              {
+                "cells": [
+                  "request type",
+                  "json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 662305,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 561889,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should get correct type as response",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_correct_type_as_response()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@contentType"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:22.142Z",
+        "line": 23,
+        "name": "User should be able to send a text in content type \"xml\"",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-send-a-text-in-content-type-\"xml\"",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 261108350,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User sends a text to PurgoMalum in following type",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "Hello World!"
+                ]
+              },
+              {
+                "cells": [
+                  "request type",
+                  "xml"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 404854,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 380521,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should get correct type as response",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_correct_type_as_response()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@contentType"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:22.406Z",
+        "line": 32,
+        "name": "User should be able to send a text in content type \"plain\"",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-send-a-text-in-content-type-\"plain\"",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 227533276,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User sends a text to PurgoMalum in following type",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "Hello World!"
+                ]
+              },
+              {
+                "cells": [
+                  "request type",
+                  "plain"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 488990,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 349927,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User should get correct type as response",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_correct_type_as_response()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@contentType"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:22.636Z",
+        "line": 41,
+        "name": "User should not be able to send a text in invalid content type",
+        "description": "",
+        "id": "purgomalum-tests;user-should-not-be-able-to-send-a-text-in-invalid-content-type",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 225858191,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User sends a text to PurgoMalum in following type",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "Hello World!"
+                ]
+              },
+              {
+                "cells": [
+                  "request type",
+                  "some text"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 350934,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User should get status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@contentType"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:22.864Z",
+        "line": 56,
+        "name": "User should be able to validate a text contains profanity",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-validate-a-text-contains-profanity;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 224655168,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User sends a \u0027Hello World\u0027 to PurgoMalum to check it in profanity list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Hello World\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 391911,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 420622,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should get following \u0027false\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027false\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_following(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityValidationTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:23.095Z",
+        "line": 57,
+        "name": "User should be able to validate a text contains profanity",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-validate-a-text-contains-profanity;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 231418732,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User sends a \u0027Do not do any shit\u0027 to PurgoMalum to check it in profanity list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Do not do any shit\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 230603,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 404406,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should get following \u0027true\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027true\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_following(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityValidationTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:23.329Z",
+        "line": 58,
+        "name": "User should be able to validate a text contains profanity",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-validate-a-text-contains-profanity;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 230627481,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User sends a \u0027Hey you swear\u0027 to PurgoMalum to check it in profanity list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Hey you swear\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 455842,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 400169,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should get following \u0027false\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027false\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_following(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityValidationTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:23.563Z",
+        "line": 59,
+        "name": "User should be able to validate a text contains profanity",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-validate-a-text-contains-profanity;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 240966365,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User sends a \u0027Do not be a twat\u0027 to PurgoMalum to check it in profanity list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Do not be a twat\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 503400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 412580,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should get following \u0027true\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027true\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_following(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityValidationTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:23.808Z",
+        "line": 60,
+        "name": "User should be able to validate a text contains profanity",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-validate-a-text-contains-profanity;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 228322038,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User sends a \u0027What is wrong\u0027 to PurgoMalum to check it in profanity list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027What is wrong\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 477948,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 478247,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should get following \u0027false\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027false\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_following(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityValidationTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:24.039Z",
+        "line": 61,
+        "name": "User should be able to validate a text contains profanity",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-validate-a-text-contains-profanity;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 223305569,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User sends a \u0027He is like silly\u0027 to PurgoMalum to check it in profanity list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027He is like silly\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 465268,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 453246,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should get following \u0027false\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027false\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_following(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityValidationTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:24.266Z",
+        "line": 62,
+        "name": "User should be able to validate a text contains profanity",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-validate-a-text-contains-profanity;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 202227139,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User sends a \u0027Sorry for that words\u0027 to PurgoMalum to check it in profanity list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sorry for that words\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 348959,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 367953,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should get following \u0027false\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027false\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_following(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityValidationTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:24.471Z",
+        "line": 63,
+        "name": "User should be able to validate a text contains profanity",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-validate-a-text-contains-profanity;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 215439301,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User sends a \u0027I am just testing\u0027 to PurgoMalum to check it in profanity list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027I am just testing\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 439139,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 490439,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User should get following \u0027false\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027false\u0027",
+                  "offset": 26
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_following(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityValidationTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:24.689Z",
+        "line": 67,
+        "name": "User should be able to add some words as profanity list and mask it by \u0027*\u0027",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-add-some-words-as-profanity-list-and-mask-it-by--*-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 215113800,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User sends following text and adds following word as Profanity",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "He is very silly"
+                ]
+              },
+              {
+                "cells": [
+                  "word",
+                  "silly"
+                ]
+              },
+              {
+                "cells": [
+                  "replace",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 427251,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7465784,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User should get newly added profanity word as masked",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityMaskingTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:24.914Z",
+        "line": 79,
+        "name": "User should be able to add some words as profanity list and replace it by \u0027removed\u0027",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-add-some-words-as-profanity-list-and-replace-it-by--removed-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 242347643,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "User sends following text and adds following word as Profanity",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "He is very silly"
+                ]
+              },
+              {
+                "cells": [
+                  "word",
+                  "silly,very"
+                ]
+              },
+              {
+                "cells": [
+                  "replace",
+                  "[removed]"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 444930,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003che is [removed] [][removed]\u003e but was:\u003che is [removed] [ ][removed]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked(PurgoMalumStepDefs.java:123)\n\tat ✽.User should get newly added profanity word as masked(file:src/test/resources/features/PurgoMalumTest.feature:85)\n",
+              "duration": 7489823,
+              "status": "failed"
+            },
+            "line": 85,
+            "name": "User should get newly added profanity word as masked",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@failed"
+          },
+          {
+            "name": "@bug"
+          },
+          {
+            "name": "@profanityMaskingTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:25.170Z",
+        "line": 89,
+        "name": "User should be able to add some words as profanity list and replace it by ignoring the uppercase",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-add-some-words-as-profanity-list-and-replace-it-by-ignoring-the-uppercase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 265559015,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "User sends following text and adds following word as Profanity",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "Silly is very silly"
+                ]
+              },
+              {
+                "cells": [
+                  "word",
+                  "silly"
+                ]
+              },
+              {
+                "cells": [
+                  "replace",
+                  "[replaced]"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 724538,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7704696,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "User should get newly added profanity word as masked",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityMaskingTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:25.446Z",
+        "line": 101,
+        "name": "User should not be able to add more than 10 words as profanity list",
+        "description": "",
+        "id": "purgomalum-tests;user-should-not-be-able-to-add-more-than-10-words-as-profanity-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 224045557,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "User sends following text and adds following word as Profanity",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "He is very silly but sometimes he makes some jokes and that makes us really happy"
+                ]
+              },
+              {
+                "cells": [
+                  "word",
+                  "silly,but,jokes,that,makes,us,really,happy,is,very,he"
+                ]
+              },
+              {
+                "cells": [
+                  "replace",
+                  "[removed]"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_status_code(PurgoMalumStepDefs.java:35)\n\tat ✽.User should get status code 400(file:src/test/resources/features/PurgoMalumTest.feature:106)\n",
+              "duration": 634741,
+              "status": "failed"
+            },
+            "line": 106,
+            "name": "User should get status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 715390,
+              "status": "skipped"
+            },
+            "line": 107,
+            "name": "User should get following error message",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_following_error_message(String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "User Black List Exceeds Limit of 10 Words."
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@failed"
+          },
+          {
+            "name": "@bug"
+          },
+          {
+            "name": "@profanityMaskingTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:25.675Z",
+        "line": 114,
+        "name": "User should not be able to add a word more than 200 characters as profanity list",
+        "description": "",
+        "id": "purgomalum-tests;user-should-not-be-able-to-add-a-word-more-than-200-characters-as-profanity-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 288622224,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "User sends following text and adds following word as Profanity",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "He is very silly but sometimes he makes some jokes and that makes us really happy"
+                ]
+              },
+              {
+                "cells": [
+                  "word",
+                  "sillyzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+                ]
+              },
+              {
+                "cells": [
+                  "replace",
+                  "[removed]"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_status_code(PurgoMalumStepDefs.java:35)\n\tat ✽.User should get status code 400(file:src/test/resources/features/PurgoMalumTest.feature:119)\n",
+              "duration": 700095,
+              "status": "failed"
+            },
+            "line": 119,
+            "name": "User should get status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 532932,
+              "status": "skipped"
+            },
+            "line": 120,
+            "name": "User should get following error message",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_following_error_message(String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "User Black List Exceeds Limit of 10 Words."
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@failed"
+          },
+          {
+            "name": "@bug"
+          },
+          {
+            "name": "@profanityMaskingTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:25.967Z",
+        "line": 127,
+        "name": "User should not be able to add a replacement word more that 20 characters",
+        "description": "",
+        "id": "purgomalum-tests;user-should-not-be-able-to-add-a-replacement-word-more-that-20-characters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 226618952,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "User sends following text and adds following word as Profanity",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "He is very silly"
+                ]
+              },
+              {
+                "cells": [
+                  "word",
+                  "silly"
+                ]
+              },
+              {
+                "cells": [
+                  "replace",
+                  "thistextismorethantwenty"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_status_code(PurgoMalumStepDefs.java:35)\n\tat ✽.User should get status code 400(file:src/test/resources/features/PurgoMalumTest.feature:132)\n",
+              "duration": 655651,
+              "status": "failed"
+            },
+            "line": 132,
+            "name": "User should get status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 543140,
+              "status": "skipped"
+            },
+            "line": 133,
+            "name": "User should get following error message",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_following_error_message(String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "User Replacement Text Exceeds Limit of 20 Characters."
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@failed"
+          },
+          {
+            "name": "@bug"
+          },
+          {
+            "name": "@profanityMaskingTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:26.198Z",
+        "line": 138,
+        "name": "User should be able to add some symbols in replacement word",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-add-some-symbols-in-replacement-word",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 260526248,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "User sends following text and adds following word as Profanity",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "He is very silly"
+                ]
+              },
+              {
+                "cells": [
+                  "word",
+                  "silly"
+                ]
+              },
+              {
+                "cells": [
+                  "replace",
+                  "[\u003d]]!\""
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 360233,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8024187,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "User should get newly added profanity word as masked",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityMaskingTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:26.468Z",
+        "line": 150,
+        "name": "User should be able to add some symbols in replacement word",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-add-some-symbols-in-replacement-word",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 227628215,
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "User sends following text and adds following word as Profanity",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "He is very silly"
+                ]
+              },
+              {
+                "cells": [
+                  "word",
+                  "silly"
+                ]
+              },
+              {
+                "cells": [
+                  "replace",
+                  "$£\u0026%#"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 360235,
+              "status": "passed"
+            },
+            "line": 155,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6594672,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "User should get following error message",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_following_error_message(String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Invalid User Replacement Text"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@failed"
+          },
+          {
+            "name": "@bug"
+          },
+          {
+            "name": "@profanityMaskingTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:26.704Z",
+        "line": 161,
+        "name": "User should be able to add some words as profanity list and replace it by valid character",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-add-some-words-as-profanity-list-and-replace-it-by-valid-character",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 224650995,
+              "status": "passed"
+            },
+            "line": 162,
+            "name": "User sends following text and adds following character as Profanity",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_character_as_Profanity(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "He is very silly"
+                ]
+              },
+              {
+                "cells": [
+                  "word",
+                  "silly"
+                ]
+              },
+              {
+                "cells": [
+                  "replace",
+                  "_"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 309154,
+              "status": "passed"
+            },
+            "line": 166,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6572205,
+              "status": "passed"
+            },
+            "line": 167,
+            "name": "User should get newly added profanity word as masked",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@suit"
+          },
+          {
+            "name": "@profanityMaskingTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-19T15:24:26.937Z",
+        "line": 173,
+        "name": "User should be able to replace words by invalid character",
+        "description": "",
+        "id": "purgomalum-tests;user-should-be-able-to-replace-words-by-invalid-character",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 200445693,
+              "status": "passed"
+            },
+            "line": 174,
+            "name": "User sends following text and adds following character as Profanity",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_character_as_Profanity(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "text",
+                  "He is very silly"
+                ]
+              },
+              {
+                "cells": [
+                  "word",
+                  "silly"
+                ]
+              },
+              {
+                "cells": [
+                  "replace",
+                  "@"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367971,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "User should get status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003cInvalid User Replacement Characters\u003e but was:\u003cnull\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_following_error_message(PurgoMalumStepDefs.java:131)\n\tat ✽.User should get following error message(file:src/test/resources/features/PurgoMalumTest.feature:179)\n",
+              "duration": 7478511,
+              "status": "failed"
+            },
+            "line": 179,
+            "name": "User should get following error message",
+            "match": {
+              "location": "PurgoMalumStepDefs.user_should_get_following_error_message(String)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Invalid User Replacement Characters"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PurgoMalumTest"
+          },
+          {
+            "name": "@failed"
+          },
+          {
+            "name": "@bug"
+          },
+          {
+            "name": "@profanityMaskingTest"
+          }
+        ]
+      }
+    ],
+    "name": "PurgoMalum Tests",
+    "description": "",
+    "id": "purgomalum-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PurgoMalumTest.feature",
+    "tags": [
+      {
+        "name": "@PurgoMalumTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
