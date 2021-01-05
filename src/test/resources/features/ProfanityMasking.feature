@@ -83,7 +83,7 @@ Feature: Profanity Masking Tests
       | text    | He is very silly |
       | word    | silly            |
       | replace | $£&%#            |
-    Then User should get status code 200
+    Then User should get status code 400
     And User should get following error message
       | Invalid User Replacement Text |
 
@@ -104,7 +104,7 @@ Feature: Profanity Masking Tests
       | text    | He is very silly |
       | word    | silly            |
       | replace | @                |
-    Then User should get status code 200
+    Then User should get status code 400
     And User should get following error message
       | Invalid User Replacement Characters |
 
