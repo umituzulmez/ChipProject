@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-19T16:39:48.822Z",
+        "start_timestamp": "2022-05-20T18:36:49.430Z",
         "line": 5,
         "name": "User should be able to send a text in content type \"json\"",
         "description": "",
@@ -13,8 +13,9 @@
         "steps": [
           {
             "result": {
-              "duration": 1485313129,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache\n\tat org.codehaus.groovy.runtime.dgmimpl.NumberNumberMetaMethod.\u003cclinit\u003e(NumberNumberMetaMethod.java:33)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.createMetaMethodFromClass(MetaClassRegistryImpl.java:258)\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.\u003cinit\u003e(MetaClassRegistryImpl.java:111)\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.\u003cinit\u003e(MetaClassRegistryImpl.java:86)\n\tat groovy.lang.GroovySystem.\u003cclinit\u003e(GroovySystem.java:36)\n\tat org.codehaus.groovy.runtime.InvokerHelper.\u003cclinit\u003e(InvokerHelper.java:86)\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.createMap(ScriptBytecodeAdapter.java:635)\n\tat io.restassured.internal.ResponseParserRegistrar.\u003cinit\u003e(ResponseParserRegistrar.groovy)\n\tat io.restassured.RestAssured.\u003cclinit\u003e(RestAssured.java:347)\n\tat com.Chip.microservices.PurgoMalumManager.getText(PurgoMalumManager.java:25)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(PurgoMalumStepDefs.java:51)\n\tat ✽.User sends a text to PurgoMalum in following type(file:src/test/resources/features/ContentTypeValidation.feature:6)\n",
+              "duration": 111884583,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends a text to PurgoMalum in following type",
@@ -39,8 +40,8 @@
           },
           {
             "result": {
-              "duration": 1443176,
-              "status": "passed"
+              "duration": 424405,
+              "status": "skipped"
             },
             "line": 9,
             "name": "User should get status code 200",
@@ -57,8 +58,8 @@
           },
           {
             "result": {
-              "duration": 366259,
-              "status": "passed"
+              "duration": 327802,
+              "status": "skipped"
             },
             "line": 10,
             "name": "User should get correct type as response",
@@ -84,7 +85,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:50.342Z",
+        "start_timestamp": "2022-05-20T18:36:49.593Z",
         "line": 13,
         "name": "User should be able to send a text in content type \"xml\"",
         "description": "",
@@ -94,8 +95,9 @@
         "steps": [
           {
             "result": {
-              "duration": 285990756,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.getText(PurgoMalumManager.java:25)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(PurgoMalumStepDefs.java:51)\n\tat ✽.User sends a text to PurgoMalum in following type(file:src/test/resources/features/ContentTypeValidation.feature:14)\n",
+              "duration": 1369528,
+              "status": "failed"
             },
             "line": 14,
             "name": "User sends a text to PurgoMalum in following type",
@@ -120,8 +122,8 @@
           },
           {
             "result": {
-              "duration": 419584,
-              "status": "passed"
+              "duration": 308808,
+              "status": "skipped"
             },
             "line": 17,
             "name": "User should get status code 200",
@@ -138,8 +140,8 @@
           },
           {
             "result": {
-              "duration": 394521,
-              "status": "passed"
+              "duration": 487910,
+              "status": "skipped"
             },
             "line": 18,
             "name": "User should get correct type as response",
@@ -165,7 +167,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:50.631Z",
+        "start_timestamp": "2022-05-20T18:36:49.599Z",
         "line": 21,
         "name": "User should be able to send a text in content type \"plain\"",
         "description": "",
@@ -175,8 +177,9 @@
         "steps": [
           {
             "result": {
-              "duration": 223279952,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.getText(PurgoMalumManager.java:25)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(PurgoMalumStepDefs.java:51)\n\tat ✽.User sends a text to PurgoMalum in following type(file:src/test/resources/features/ContentTypeValidation.feature:22)\n",
+              "duration": 2174361,
+              "status": "failed"
             },
             "line": 22,
             "name": "User sends a text to PurgoMalum in following type",
@@ -201,8 +204,8 @@
           },
           {
             "result": {
-              "duration": 749486,
-              "status": "passed"
+              "duration": 833698,
+              "status": "skipped"
             },
             "line": 25,
             "name": "User should get status code 200",
@@ -219,8 +222,8 @@
           },
           {
             "result": {
-              "duration": 545990,
-              "status": "passed"
+              "duration": 535368,
+              "status": "skipped"
             },
             "line": 26,
             "name": "User should get correct type as response",
@@ -246,7 +249,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:50.858Z",
+        "start_timestamp": "2022-05-20T18:36:49.609Z",
         "line": 29,
         "name": "User should not be able to send a text in invalid content type",
         "description": "",
@@ -256,8 +259,9 @@
         "steps": [
           {
             "result": {
-              "duration": 234441407,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.getText(PurgoMalumManager.java:25)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(PurgoMalumStepDefs.java:51)\n\tat ✽.User sends a text to PurgoMalum in following type(file:src/test/resources/features/ContentTypeValidation.feature:30)\n",
+              "duration": 2885160,
+              "status": "failed"
             },
             "line": 30,
             "name": "User sends a text to PurgoMalum in following type",
@@ -282,8 +286,8 @@
           },
           {
             "result": {
-              "duration": 378042,
-              "status": "passed"
+              "duration": 504833,
+              "status": "skipped"
             },
             "line": 33,
             "name": "User should get status code 404",
@@ -343,7 +347,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-19T16:39:51.095Z",
+        "start_timestamp": "2022-05-20T18:36:49.618Z",
         "line": 5,
         "name": "User should be able to add some words as profanity list and mask it by \u0027*\u0027",
         "description": "",
@@ -353,8 +357,9 @@
         "steps": [
           {
             "result": {
-              "duration": 259931232,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:6)\n",
+              "duration": 2745667,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends following text and adds following word as Profanity",
@@ -385,8 +390,8 @@
           },
           {
             "result": {
-              "duration": 444244,
-              "status": "passed"
+              "duration": 442767,
+              "status": "skipped"
             },
             "line": 10,
             "name": "User should get status code 200",
@@ -403,8 +408,8 @@
           },
           {
             "result": {
-              "duration": 188576734,
-              "status": "passed"
+              "duration": 426572,
+              "status": "skipped"
             },
             "line": 11,
             "name": "User should get newly added profanity word as masked",
@@ -433,7 +438,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:51.554Z",
+        "start_timestamp": "2022-05-20T18:36:49.651Z",
         "line": 16,
         "name": "User should be able to add some words as profanity list and replace it by \u0027removed\u0027",
         "description": "",
@@ -443,8 +448,9 @@
         "steps": [
           {
             "result": {
-              "duration": 228579350,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:17)\n",
+              "duration": 4248685,
+              "status": "failed"
             },
             "line": 17,
             "name": "User sends following text and adds following word as Profanity",
@@ -475,8 +481,8 @@
           },
           {
             "result": {
-              "duration": 391982,
-              "status": "passed"
+              "duration": 374651,
+              "status": "skipped"
             },
             "line": 21,
             "name": "User should get status code 200",
@@ -493,9 +499,8 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003che is [removed] [][removed]\u003e but was:\u003che is [removed] [ ][removed]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked(PurgoMalumStepDefs.java:123)\n\tat ✽.User should get newly added profanity word as masked(file:src/test/resources/features/ProfanityMasking.feature:22)\n",
-              "duration": 7897589,
-              "status": "failed"
+              "duration": 614641,
+              "status": "skipped"
             },
             "line": 22,
             "name": "User should get newly added profanity word as masked",
@@ -524,7 +529,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:51.797Z",
+        "start_timestamp": "2022-05-20T18:36:49.662Z",
         "line": 25,
         "name": "User should be able to add some words as profanity list and replace it by ignoring the uppercase",
         "description": "",
@@ -534,8 +539,9 @@
         "steps": [
           {
             "result": {
-              "duration": 238816985,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:26)\n",
+              "duration": 2305036,
+              "status": "failed"
             },
             "line": 26,
             "name": "User sends following text and adds following word as Profanity",
@@ -566,8 +572,8 @@
           },
           {
             "result": {
-              "duration": 432530,
-              "status": "passed"
+              "duration": 343429,
+              "status": "skipped"
             },
             "line": 30,
             "name": "User should get status code 200",
@@ -584,8 +590,8 @@
           },
           {
             "result": {
-              "duration": 7176514,
-              "status": "passed"
+              "duration": 324156,
+              "status": "skipped"
             },
             "line": 31,
             "name": "User should get newly added profanity word as masked",
@@ -614,7 +620,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:52.046Z",
+        "start_timestamp": "2022-05-20T18:36:49.669Z",
         "line": 36,
         "name": "User should not be able to add more than 10 words as profanity list",
         "description": "",
@@ -624,8 +630,9 @@
         "steps": [
           {
             "result": {
-              "duration": 627294856,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:37)\n",
+              "duration": 1562341,
+              "status": "failed"
             },
             "line": 37,
             "name": "User sends following text and adds following word as Profanity",
@@ -656,9 +663,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_status_code(PurgoMalumStepDefs.java:35)\n\tat ✽.User should get status code 400(file:src/test/resources/features/ProfanityMasking.feature:41)\n",
-              "duration": 675458,
-              "status": "failed"
+              "duration": 342693,
+              "status": "skipped"
             },
             "line": 41,
             "name": "User should get status code 400",
@@ -675,7 +681,7 @@
           },
           {
             "result": {
-              "duration": 709282,
+              "duration": 649522,
               "status": "skipped"
             },
             "line": 42,
@@ -718,7 +724,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:52.680Z",
+        "start_timestamp": "2022-05-20T18:36:49.675Z",
         "line": 48,
         "name": "User should not be able to add a word more than 200 characters as profanity list",
         "description": "",
@@ -728,8 +734,9 @@
         "steps": [
           {
             "result": {
-              "duration": 266978493,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:49)\n",
+              "duration": 1451551,
+              "status": "failed"
             },
             "line": 49,
             "name": "User sends following text and adds following word as Profanity",
@@ -760,9 +767,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_status_code(PurgoMalumStepDefs.java:35)\n\tat ✽.User should get status code 400(file:src/test/resources/features/ProfanityMasking.feature:53)\n",
-              "duration": 853275,
-              "status": "failed"
+              "duration": 309959,
+              "status": "skipped"
             },
             "line": 53,
             "name": "User should get status code 400",
@@ -779,7 +785,7 @@
           },
           {
             "result": {
-              "duration": 652454,
+              "duration": 563350,
               "status": "skipped"
             },
             "line": 54,
@@ -822,7 +828,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:52.952Z",
+        "start_timestamp": "2022-05-20T18:36:49.680Z",
         "line": 60,
         "name": "User should not be able to add a replacement word more that 20 characters",
         "description": "",
@@ -832,8 +838,9 @@
         "steps": [
           {
             "result": {
-              "duration": 219469133,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:61)\n",
+              "duration": 1647611,
+              "status": "failed"
             },
             "line": 61,
             "name": "User sends following text and adds following word as Profanity",
@@ -864,9 +871,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_status_code(PurgoMalumStepDefs.java:35)\n\tat ✽.User should get status code 400(file:src/test/resources/features/ProfanityMasking.feature:65)\n",
-              "duration": 793176,
-              "status": "failed"
+              "duration": 343074,
+              "status": "skipped"
             },
             "line": 65,
             "name": "User should get status code 400",
@@ -883,7 +889,7 @@
           },
           {
             "result": {
-              "duration": 592707,
+              "duration": 580212,
               "status": "skipped"
             },
             "line": 66,
@@ -926,7 +932,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:53.177Z",
+        "start_timestamp": "2022-05-20T18:36:49.686Z",
         "line": 70,
         "name": "User should be able to add some symbols in replacement word",
         "description": "",
@@ -936,8 +942,9 @@
         "steps": [
           {
             "result": {
-              "duration": 209666745,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:71)\n",
+              "duration": 1413262,
+              "status": "failed"
             },
             "line": 71,
             "name": "User sends following text and adds following word as Profanity",
@@ -968,8 +975,8 @@
           },
           {
             "result": {
-              "duration": 500678,
-              "status": "passed"
+              "duration": 323833,
+              "status": "skipped"
             },
             "line": 75,
             "name": "User should get status code 200",
@@ -986,8 +993,8 @@
           },
           {
             "result": {
-              "duration": 6906949,
-              "status": "passed"
+              "duration": 292760,
+              "status": "skipped"
             },
             "line": 76,
             "name": "User should get newly added profanity word as masked",
@@ -1019,7 +1026,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:53.396Z",
+        "start_timestamp": "2022-05-20T18:36:49.690Z",
         "line": 81,
         "name": "User should be able to add some symbols in replacement word",
         "description": "",
@@ -1029,8 +1036,9 @@
         "steps": [
           {
             "result": {
-              "duration": 210144196,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:82)\n",
+              "duration": 3572171,
+              "status": "failed"
             },
             "line": 82,
             "name": "User sends following text and adds following word as Profanity",
@@ -1061,15 +1069,15 @@
           },
           {
             "result": {
-              "duration": 437714,
-              "status": "passed"
+              "duration": 545293,
+              "status": "skipped"
             },
             "line": 86,
-            "name": "User should get status code 200",
+            "name": "User should get status code 400",
             "match": {
               "arguments": [
                 {
-                  "val": "200",
+                  "val": "400",
                   "offset": 28
                 }
               ],
@@ -1079,8 +1087,8 @@
           },
           {
             "result": {
-              "duration": 6798384,
-              "status": "passed"
+              "duration": 1283107,
+              "status": "skipped"
             },
             "line": 87,
             "name": "User should get following error message",
@@ -1122,7 +1130,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:53.616Z",
+        "start_timestamp": "2022-05-20T18:36:49.702Z",
         "line": 91,
         "name": "User should be able to add some words as profanity list and replace it by valid character",
         "description": "",
@@ -1132,8 +1140,9 @@
         "steps": [
           {
             "result": {
-              "duration": 218962083,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanityChar(PurgoMalumManager.java:60)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_character_as_Profanity(PurgoMalumStepDefs.java:152)\n\tat ✽.User sends following text and adds following character as Profanity(file:src/test/resources/features/ProfanityMasking.feature:92)\n",
+              "duration": 2167133,
+              "status": "failed"
             },
             "line": 92,
             "name": "User sends following text and adds following character as Profanity",
@@ -1164,8 +1173,8 @@
           },
           {
             "result": {
-              "duration": 444096,
-              "status": "passed"
+              "duration": 355761,
+              "status": "skipped"
             },
             "line": 96,
             "name": "User should get status code 200",
@@ -1182,8 +1191,8 @@
           },
           {
             "result": {
-              "duration": 6536734,
-              "status": "passed"
+              "duration": 330052,
+              "status": "skipped"
             },
             "line": 97,
             "name": "User should get newly added profanity word as masked",
@@ -1209,7 +1218,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:53.843Z",
+        "start_timestamp": "2022-05-20T18:36:49.708Z",
         "line": 102,
         "name": "User should be able to replace words by invalid character",
         "description": "",
@@ -1219,8 +1228,9 @@
         "steps": [
           {
             "result": {
-              "duration": 223098808,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanityChar(PurgoMalumManager.java:60)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_character_as_Profanity(PurgoMalumStepDefs.java:152)\n\tat ✽.User sends following text and adds following character as Profanity(file:src/test/resources/features/ProfanityMasking.feature:103)\n",
+              "duration": 1897347,
+              "status": "failed"
             },
             "line": 103,
             "name": "User sends following text and adds following character as Profanity",
@@ -1251,15 +1261,15 @@
           },
           {
             "result": {
-              "duration": 415215,
-              "status": "passed"
+              "duration": 825687,
+              "status": "skipped"
             },
             "line": 107,
-            "name": "User should get status code 200",
+            "name": "User should get status code 400",
             "match": {
               "arguments": [
                 {
-                  "val": "200",
+                  "val": "400",
                   "offset": 28
                 }
               ],
@@ -1269,9 +1279,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003cInvalid User Replacement Characters\u003e but was:\u003cnull\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_following_error_message(PurgoMalumStepDefs.java:131)\n\tat ✽.User should get following error message(file:src/test/resources/features/ProfanityMasking.feature:108)\n",
-              "duration": 7275451,
-              "status": "failed"
+              "duration": 1204747,
+              "status": "skipped"
             },
             "line": 108,
             "name": "User should get following error message",
@@ -1338,7 +1347,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-19T16:39:54.077Z",
+        "start_timestamp": "2022-05-20T18:36:49.719Z",
         "line": 12,
         "name": "User should be able to validate a text contains profanity",
         "description": "",
@@ -1348,8 +1357,9 @@
         "steps": [
           {
             "result": {
-              "duration": 281231880,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027Hello World\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+              "duration": 1353337,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends a \u0027Hello World\u0027 to PurgoMalum to check it in profanity list",
@@ -1366,8 +1376,8 @@
           },
           {
             "result": {
-              "duration": 409753,
-              "status": "passed"
+              "duration": 854468,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User should get status code 200",
@@ -1384,8 +1394,8 @@
           },
           {
             "result": {
-              "duration": 436788,
-              "status": "passed"
+              "duration": 616520,
+              "status": "skipped"
             },
             "line": 8,
             "name": "User should get following \u0027false\u0027",
@@ -1414,7 +1424,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:54.365Z",
+        "start_timestamp": "2022-05-20T18:36:49.736Z",
         "line": 13,
         "name": "User should be able to validate a text contains profanity",
         "description": "",
@@ -1424,8 +1434,9 @@
         "steps": [
           {
             "result": {
-              "duration": 254257262,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027Do not do any shit\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+              "duration": 1701077,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends a \u0027Do not do any shit\u0027 to PurgoMalum to check it in profanity list",
@@ -1442,8 +1453,8 @@
           },
           {
             "result": {
-              "duration": 476901,
-              "status": "passed"
+              "duration": 472191,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User should get status code 200",
@@ -1460,8 +1471,8 @@
           },
           {
             "result": {
-              "duration": 316982,
-              "status": "passed"
+              "duration": 549950,
+              "status": "skipped"
             },
             "line": 8,
             "name": "User should get following \u0027true\u0027",
@@ -1490,7 +1501,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:54.622Z",
+        "start_timestamp": "2022-05-20T18:36:49.743Z",
         "line": 14,
         "name": "User should be able to validate a text contains profanity",
         "description": "",
@@ -1500,8 +1511,9 @@
         "steps": [
           {
             "result": {
-              "duration": 223925351,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027Hey you swear\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+              "duration": 1352598,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends a \u0027Hey you swear\u0027 to PurgoMalum to check it in profanity list",
@@ -1518,8 +1530,8 @@
           },
           {
             "result": {
-              "duration": 386120,
-              "status": "passed"
+              "duration": 847799,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User should get status code 200",
@@ -1536,8 +1548,8 @@
           },
           {
             "result": {
-              "duration": 330217,
-              "status": "passed"
+              "duration": 634849,
+              "status": "skipped"
             },
             "line": 8,
             "name": "User should get following \u0027false\u0027",
@@ -1566,7 +1578,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:54.848Z",
+        "start_timestamp": "2022-05-20T18:36:49.751Z",
         "line": 15,
         "name": "User should be able to validate a text contains profanity",
         "description": "",
@@ -1576,8 +1588,9 @@
         "steps": [
           {
             "result": {
-              "duration": 208091992,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027Do not be a twat\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+              "duration": 966374,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends a \u0027Do not be a twat\u0027 to PurgoMalum to check it in profanity list",
@@ -1594,8 +1607,8 @@
           },
           {
             "result": {
-              "duration": 263994,
-              "status": "passed"
+              "duration": 376884,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User should get status code 200",
@@ -1612,8 +1625,8 @@
           },
           {
             "result": {
-              "duration": 190033,
-              "status": "passed"
+              "duration": 309146,
+              "status": "skipped"
             },
             "line": 8,
             "name": "User should get following \u0027true\u0027",
@@ -1642,7 +1655,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:55.058Z",
+        "start_timestamp": "2022-05-20T18:36:49.758Z",
         "line": 16,
         "name": "User should be able to validate a text contains profanity",
         "description": "",
@@ -1652,8 +1665,9 @@
         "steps": [
           {
             "result": {
-              "duration": 234952713,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027What is wrong\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+              "duration": 883924,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends a \u0027What is wrong\u0027 to PurgoMalum to check it in profanity list",
@@ -1670,8 +1684,8 @@
           },
           {
             "result": {
-              "duration": 380313,
-              "status": "passed"
+              "duration": 381648,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User should get status code 200",
@@ -1688,8 +1702,8 @@
           },
           {
             "result": {
-              "duration": 414049,
-              "status": "passed"
+              "duration": 587222,
+              "status": "skipped"
             },
             "line": 8,
             "name": "User should get following \u0027false\u0027",
@@ -1718,7 +1732,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:55.295Z",
+        "start_timestamp": "2022-05-20T18:36:49.766Z",
         "line": 17,
         "name": "User should be able to validate a text contains profanity",
         "description": "",
@@ -1728,8 +1742,9 @@
         "steps": [
           {
             "result": {
-              "duration": 221218728,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027He is like silly\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+              "duration": 788432,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends a \u0027He is like silly\u0027 to PurgoMalum to check it in profanity list",
@@ -1746,8 +1761,8 @@
           },
           {
             "result": {
-              "duration": 214771,
-              "status": "passed"
+              "duration": 280060,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User should get status code 200",
@@ -1764,8 +1779,8 @@
           },
           {
             "result": {
-              "duration": 274538,
-              "status": "passed"
+              "duration": 293471,
+              "status": "skipped"
             },
             "line": 8,
             "name": "User should get following \u0027false\u0027",
@@ -1794,7 +1809,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:55.518Z",
+        "start_timestamp": "2022-05-20T18:36:49.772Z",
         "line": 18,
         "name": "User should be able to validate a text contains profanity",
         "description": "",
@@ -1804,8 +1819,9 @@
         "steps": [
           {
             "result": {
-              "duration": 209160296,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027Sorry for that words\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+              "duration": 851290,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends a \u0027Sorry for that words\u0027 to PurgoMalum to check it in profanity list",
@@ -1822,8 +1838,8 @@
           },
           {
             "result": {
-              "duration": 362295,
-              "status": "passed"
+              "duration": 552195,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User should get status code 200",
@@ -1840,8 +1856,8 @@
           },
           {
             "result": {
-              "duration": 405423,
-              "status": "passed"
+              "duration": 667111,
+              "status": "skipped"
             },
             "line": 8,
             "name": "User should get following \u0027false\u0027",
@@ -1870,7 +1886,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-19T16:39:55.730Z",
+        "start_timestamp": "2022-05-20T18:36:49.779Z",
         "line": 19,
         "name": "User should be able to validate a text contains profanity",
         "description": "",
@@ -1880,8 +1896,9 @@
         "steps": [
           {
             "result": {
-              "duration": 232954078,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027I am just testing\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+              "duration": 536378,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends a \u0027I am just testing\u0027 to PurgoMalum to check it in profanity list",
@@ -1898,8 +1915,8 @@
           },
           {
             "result": {
-              "duration": 373382,
-              "status": "passed"
+              "duration": 297437,
+              "status": "skipped"
             },
             "line": 7,
             "name": "User should get status code 200",
@@ -1916,8 +1933,8 @@
           },
           {
             "result": {
-              "duration": 436236,
-              "status": "passed"
+              "duration": 395070,
+              "status": "skipped"
             },
             "line": 8,
             "name": "User should get following \u0027false\u0027",
@@ -1966,7 +1983,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-12-19T16:39:55.965Z",
+        "start_timestamp": "2022-05-20T18:36:49.784Z",
         "line": 5,
         "name": "User should be able send a valid text and validate it",
         "description": "",
@@ -1976,8 +1993,9 @@
         "steps": [
           {
             "result": {
-              "duration": 218142459,
-              "status": "passed"
+              "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.getText(PurgoMalumManager.java:14)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum(PurgoMalumStepDefs.java:30)\n\tat ✽.User sends a text to PurgoMalum(file:src/test/resources/features/TextValidation.feature:6)\n",
+              "duration": 1316589,
+              "status": "failed"
             },
             "line": 6,
             "name": "User sends a text to PurgoMalum",
@@ -1996,8 +2014,8 @@
           },
           {
             "result": {
-              "duration": 382545,
-              "status": "passed"
+              "duration": 720436,
+              "status": "skipped"
             },
             "line": 8,
             "name": "User should get status code 200",
@@ -2014,8 +2032,8 @@
           },
           {
             "result": {
-              "duration": 21299035,
-              "status": "passed"
+              "duration": 877016,
+              "status": "skipped"
             },
             "line": 9,
             "name": "User should get the correct text in response",

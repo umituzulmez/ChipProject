@@ -53,7 +53,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache\n\tat org.codehaus.groovy.runtime.dgmimpl.NumberNumberMetaMethod.\u003cclinit\u003e(NumberNumberMetaMethod.java:33)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.createMetaMethodFromClass(MetaClassRegistryImpl.java:258)\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.\u003cinit\u003e(MetaClassRegistryImpl.java:111)\n\tat org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.\u003cinit\u003e(MetaClassRegistryImpl.java:86)\n\tat groovy.lang.GroovySystem.\u003cclinit\u003e(GroovySystem.java:36)\n\tat org.codehaus.groovy.runtime.InvokerHelper.\u003cclinit\u003e(InvokerHelper.java:86)\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.createMap(ScriptBytecodeAdapter.java:635)\n\tat io.restassured.internal.ResponseParserRegistrar.\u003cinit\u003e(ResponseParserRegistrar.groovy)\n\tat io.restassured.RestAssured.\u003cclinit\u003e(RestAssured.java:347)\n\tat com.Chip.microservices.PurgoMalumManager.getText(PurgoMalumManager.java:25)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(PurgoMalumStepDefs.java:51)\n\tat ✽.User sends a text to PurgoMalum in following type(file:src/test/resources/features/ContentTypeValidation.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -63,7 +64,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get correct type as response",
@@ -73,7 +74,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_correct_type_as_response()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to send a text in content type \"xml\"",
@@ -116,7 +117,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.getText(PurgoMalumManager.java:25)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(PurgoMalumStepDefs.java:51)\n\tat ✽.User sends a text to PurgoMalum in following type(file:src/test/resources/features/ContentTypeValidation.feature:14)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -126,7 +128,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get correct type as response",
@@ -136,7 +138,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_correct_type_as_response()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to send a text in content type \"plain\"",
@@ -179,7 +181,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.getText(PurgoMalumManager.java:25)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(PurgoMalumStepDefs.java:51)\n\tat ✽.User sends a text to PurgoMalum in following type(file:src/test/resources/features/ContentTypeValidation.feature:22)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -189,7 +192,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get correct type as response",
@@ -199,7 +202,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_correct_type_as_response()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should not be able to send a text in invalid content type",
@@ -242,7 +245,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.getText(PurgoMalumManager.java:25)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum_in_following_type(PurgoMalumStepDefs.java:51)\n\tat ✽.User sends a text to PurgoMalum in following type(file:src/test/resources/features/ContentTypeValidation.feature:30)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 404",
@@ -252,7 +256,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.uri("file:src/test/resources/features/ProfanityMasking.feature");
 formatter.feature({
@@ -318,7 +322,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -328,7 +333,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get newly added profanity word as masked",
@@ -338,7 +343,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to add some words as profanity list and replace it by \u0027removed\u0027",
@@ -390,7 +395,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:17)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -400,7 +406,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get newly added profanity word as masked",
@@ -410,8 +416,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked()"
 });
 formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003che is [removed] [][removed]\u003e but was:\u003che is [removed] [ ][removed]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked(PurgoMalumStepDefs.java:123)\n\tat ✽.User should get newly added profanity word as masked(file:src/test/resources/features/ProfanityMasking.feature:22)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to add some words as profanity list and replace it by ignoring the uppercase",
@@ -463,7 +468,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:26)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -473,7 +479,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get newly added profanity word as masked",
@@ -483,7 +489,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should not be able to add more than 10 words as profanity list",
@@ -541,7 +547,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:37)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 400",
@@ -551,8 +558,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_status_code(PurgoMalumStepDefs.java:35)\n\tat ✽.User should get status code 400(file:src/test/resources/features/ProfanityMasking.feature:41)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following error message",
@@ -627,7 +633,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:49)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 400",
@@ -637,8 +644,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_status_code(PurgoMalumStepDefs.java:35)\n\tat ✽.User should get status code 400(file:src/test/resources/features/ProfanityMasking.feature:53)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following error message",
@@ -713,7 +719,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:61)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 400",
@@ -723,8 +730,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected:\u003c400\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_status_code(PurgoMalumStepDefs.java:35)\n\tat ✽.User should get status code 400(file:src/test/resources/features/ProfanityMasking.feature:65)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following error message",
@@ -796,7 +802,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:71)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -806,7 +813,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get newly added profanity word as masked",
@@ -816,7 +823,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to add some symbols in replacement word",
@@ -874,17 +881,18 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanity(PurgoMalumManager.java:47)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_word_as_Profanity(PurgoMalumStepDefs.java:93)\n\tat ✽.User sends following text and adds following word as Profanity(file:src/test/resources/features/ProfanityMasking.feature:82)\n",
+  "status": "failed"
 });
 formatter.step({
-  "name": "User should get status code 200",
+  "name": "User should get status code 400",
   "keyword": "Then "
 });
 formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following error message",
@@ -901,7 +909,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_following_error_message(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to add some words as profanity list and replace it by valid character",
@@ -950,7 +958,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_character_as_Profanity(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanityChar(PurgoMalumManager.java:60)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_character_as_Profanity(PurgoMalumStepDefs.java:152)\n\tat ✽.User sends following text and adds following character as Profanity(file:src/test/resources/features/ProfanityMasking.feature:92)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -960,7 +969,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get newly added profanity word as masked",
@@ -970,7 +979,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_newly_added_profanity_word_as_masked()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to replace words by invalid character",
@@ -1025,17 +1034,18 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_following_text_and_adds_following_character_as_Profanity(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.addToProfanityChar(PurgoMalumManager.java:60)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_following_text_and_adds_following_character_as_Profanity(PurgoMalumStepDefs.java:152)\n\tat ✽.User sends following text and adds following character as Profanity(file:src/test/resources/features/ProfanityMasking.feature:103)\n",
+  "status": "failed"
 });
 formatter.step({
-  "name": "User should get status code 200",
+  "name": "User should get status code 400",
   "keyword": "Then "
 });
 formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following error message",
@@ -1052,8 +1062,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_following_error_message(String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected:\u003cInvalid User Replacement Characters\u003e but was:\u003cnull\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_should_get_following_error_message(PurgoMalumStepDefs.java:131)\n\tat ✽.User should get following error message(file:src/test/resources/features/ProfanityMasking.feature:108)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.uri("file:src/test/resources/features/ProfanityValidation.feature");
 formatter.feature({
@@ -1176,7 +1185,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027Hello World\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -1186,7 +1196,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following \u0027false\u0027",
@@ -1196,7 +1206,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_following(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to validate a text contains profanity",
@@ -1222,7 +1232,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027Do not do any shit\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -1232,7 +1243,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following \u0027true\u0027",
@@ -1242,7 +1253,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_following(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to validate a text contains profanity",
@@ -1268,7 +1279,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027Hey you swear\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -1278,7 +1290,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following \u0027false\u0027",
@@ -1288,7 +1300,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_following(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to validate a text contains profanity",
@@ -1314,7 +1326,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027Do not be a twat\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -1324,7 +1337,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following \u0027true\u0027",
@@ -1334,7 +1347,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_following(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to validate a text contains profanity",
@@ -1360,7 +1373,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027What is wrong\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -1370,7 +1384,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following \u0027false\u0027",
@@ -1380,7 +1394,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_following(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to validate a text contains profanity",
@@ -1406,7 +1420,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027He is like silly\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -1416,7 +1431,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following \u0027false\u0027",
@@ -1426,7 +1441,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_following(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to validate a text contains profanity",
@@ -1452,7 +1467,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027Sorry for that words\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -1462,7 +1478,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following \u0027false\u0027",
@@ -1472,7 +1488,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_following(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to validate a text contains profanity",
@@ -1498,7 +1514,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.containsProfanity(PurgoMalumManager.java:36)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_to_PurgoMalum_to_check_it_in_profanity_list(PurgoMalumStepDefs.java:71)\n\tat ✽.User sends a \u0027I am just testing\u0027 to PurgoMalum to check it in profanity list(file:src/test/resources/features/ProfanityValidation.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -1508,7 +1525,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get following \u0027false\u0027",
@@ -1518,7 +1535,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_following(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.uri("file:src/test/resources/features/TextValidation.feature");
 formatter.feature({
@@ -1566,7 +1583,8 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum(String,String\u003e)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured\n\tat com.Chip.microservices.PurgoMalumManager.getText(PurgoMalumManager.java:14)\n\tat com.Chip.stepDefinitions.PurgoMalumStepDefs.user_sends_a_text_to_PurgoMalum(PurgoMalumStepDefs.java:30)\n\tat ✽.User sends a text to PurgoMalum(file:src/test/resources/features/TextValidation.feature:6)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User should get status code 200",
@@ -1576,7 +1594,7 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_status_code(int)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should get the correct text in response",
@@ -1586,6 +1604,6 @@ formatter.match({
   "location": "PurgoMalumStepDefs.user_should_get_the_correct_text_in_response()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 });

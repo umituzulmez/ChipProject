@@ -1,1 +1,4 @@
-file:src/test/resources/features/ProfanityMasking.feature:16:36:48:60:102
+file:src/test/resources/features/ProfanityValidation.feature:12:13:14:15:16:17:18:19
+file:src/test/resources/features/ContentTypeValidation.feature:5:13:21:29
+file:src/test/resources/features/TextValidation.feature:5
+file:src/test/resources/features/ProfanityMasking.feature:5:16:25:36:48:60:70:81:91:102
